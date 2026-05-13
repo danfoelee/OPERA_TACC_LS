@@ -1,1 +1,8 @@
-ipyfilechooser==0.6.0
+git+https://github.com/opera-adt/disp-xr.git@ce0d1051f529acfc4a451918940e383206ba43d5
+# Stay inside aiobotocore's botocore upper bound (conda stack); avoids exact boto pins
+botocore>=1.42.90,<1.43.1
+boto3>=1.42,<1.44
+dem-stitcher
+tile-mate
+opera-utils
+ipyfilechooser
