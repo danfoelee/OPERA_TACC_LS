@@ -1,7 +1,36 @@
-name: llm
+name: werc
 channels:
   - conda-forge
+  - defaults
 dependencies:
-  - ipywidgets
-  - ipykernel
+  - python=3.13
+  - numpy>=2,<2.4
   - jupyterlab
+  - ipykernel
+  - ipywidgets
+  - ipympl
+  - cartopy
+  - pillow
+  - seaborn
+  - scikit-learn
+  - asf_search
+  - contextily
+  - dask
+  - folium
+  - geopandas
+  - h5py
+  - h5netcdf
+  - ipyleaflet
+  - matplotlib
+  - netcdf4
+  - pandas
+  - pyproj
+  - rasterio
+  - requests
+  - rioxarray
+  - s3fs
+  - scipy
+  - scikit-image
+  - shapely
+  - xarray
+  - zarr
